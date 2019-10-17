@@ -1,0 +1,121 @@
+html {
+    font-size: 10px;
+    line-height: 1rem;
+    font-family: "Source Han Sans CN", "Microsoft YaHei";
+}
+
+.info_body {
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: brown;
+    text-decoration: wavy underline rgb(24, 22, 22);
+    text-shadow: 2px 2px 1px rgb(150, 127, 127);
+}
+
+h4 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.6rem;
+    /* text-indent缩进 */
+    text-indent: 2rem;
+    background: rgb(120, 120, 120, 0.5);
+    /*半透明底色*/
+}
+
+ul li,
+dl dt,
+dl dd {
+    font-size: 1.3rem;
+}
+
+dl dt {
+    text-indent: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    text-indent: 2rem;
+}
+
+.projectName,
+.school {
+    font-weight: bold;
+}
+
+span {
+    font-size: 1.3rem;
+    text-indent: 2rem;
+}
+
+.projectTime {
+    text-align: right;
+    border: 0px;
+}
+
+.projectName {
+    text-align: left;
+    text-indent: 2rem;
+    border: transparent;
+}
+
+body {
+    /* background-image: url(上校.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left; */
+    background: url(上校.jpg) left/cover no-repeat fixed;
+}
+
+div div {
+    /* solid实线，dashed虚线*/
+    border: solid #4c2b18 2px;
+    border-top: dashed #4c2b18;
+    border-bottom: dashed #4c2b18;
+    border-radius: 10px;
+}
+
+div:first-child {
+    border-top: solid #4c2b18;
+}
+
+div:last-child {
+    border-bottom: #4c2b18 solid;
+}
+
+ul {
+    list-style: square;
+}
+
+a {
+    text-decoration: wavy underline rgb(24, 22, 22);
+}
+
+a:link {
+    /* 未被访问的链接 */
+    color: green;
+}
+
+a:visited {
+    /* 已被访问的链接 */
+    color: #4c2b18;
+}
+
+a:hover {
+    /* 鼠标指针移动到链接上 */
+    color: #192358;
+}
+
+a:active {
+    /* 正在被点击的链接 */
+    color: #0000FF;
+}
